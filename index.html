@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="nav">
+
+            <figure class="storie_close storie_close_disappear">
+                <img src="./resources/plus.png" alt="storie_close"> <!-- <<<- Not displayed by default-->
+            </figure>
+
+            <figure class="logo_container">
+                <img class="main_logo" src="./resources/logo.png" alt="main_logo">
+            </figure>
+
+            <div class="search_var_wrapper">
+                <div class="search_var-container">
+                    <figure class="search_icon-container">
+                        <img class="search_icon" src="./resources/search.png" alt="">
+                    </figure>
+                    <input class="search_var" type="text" placeholder="Buscar en Facebook">
+                </div>                
+            </div>
+
+
+            <div class="controll_section">
+                <figure class="controll_container controll_home-btn"> <img src="./resources/home.png" alt=""> </figure>
+                <figure class="controll_container"> <img src="./resources/play.png"> </figure>
+                <figure class="controll_container"> <img src="./resources/store.png"> </figure>
+                <figure class="controll_container"> <img src="./resources/groups.png" alt=""> </figure>
+                <figure class="controll_container"> <img src="./resources/games.png" alt=""> </figure>
+            </div>
+
+
+            <div class="user_section">
+                <div class="user">
+                    <figure class="user_image-container">
+                        <img class="user_image" src="./resources/profile.jpg" alt="">
+                    </figure>
+                    <p class="username">Benjamín</p>
+                </div>
+
+                
+                <div class="user_tools">
+
+                    <div class="tool_wrapper">
+                        <figure class="tool_icon-container">
+                            <img class="tool_icon" src="./resources/plus.png" alt="icon">
+                        </figure>
+                    </div>
+
+                    <div class="tool_wrapper">
+                        <figure class="tool_icon-container">
+                            <img class="tool_icon" src="./resources/messages.png" alt="icon">
+                        </figure>
+                    </div>
+
+                    <div class="tool_wrapper">
+                        <figure class="tool_icon-container">
+                            <img class="tool_icon" src="./resources/bell.png" alt="icon">
+                        </figure>
+                    </div>
+
+                    <div class="tool_wrapper">
+                        <figure class="tool_icon-container">
+                            <img class="tool_icon more_icon" src="./resources/triangle.png" alt="icon">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="lateral_panel">
+            <div class="lateral_panel-container">
+                <div class="panel_left-items-container">
+
+                    <div class="panel_left-item">
+                        <figure>
+                            <img class="user_image-panel" src="./resources/profile.jpg" alt="icon">
+                        </figure>
+                        <p>Benjamín Martinez</p>
+                    </div>
+
+                    <div class="panel_left-item">
+                        <figure>
+                            <img src="./resources/shield.png" alt="icon">
+                        </figure>
+                        <p>Covid-19 Centro de Información</p>
+                    </div>
+
+                    <div class="panel_left-item">
+                        <figure>
+                            <img src="./resources/friends.png" alt="icon">
+                        </figure>
+                        <p>Amigos</p>
+                    </div>
+
+                    <div class="panel_left-item">
+                        <figure>
+                            <img src="./resources/groups-color.png" alt="icon">
+                        </figure>
+                        <p>Grupos</p>
+                    </div>
+
+                    <div class="panel_left-item">
+                        <figure>
+                            <img src="./resources/market-color.png" alt="icon">
+                        </figure>
+                        <p>Marketplace</p>
+                    </div>
+
+                    <div class="panel_left-item">
+                        <figure>
+                            <img src="./resources/play-color.png" alt="icon">
+                        </figure>
+                        <p>Videos</p>
+                    </div>
+
+                    
+
+                    <div class="panel_left-item">
+                        <figure>
+                            <img src="./resources/events.png" alt="icon">
+                        </figure>
+                        <p>Eventos</p>
+                    </div>
+
+                    <div class="panel_left-item">
+                        <figure>
+                            <img src="./resources/drop-down.png" alt="icon">
+                        </figure>
+                        <p>Ver más</p>
+                    </div>
+                </div>
+                <div class="space"></div>
+
+
+
+                <div class="items_acces">
+                    <h3>Tus accesos directos</h3>
+
+                    <div class="items_acces-wrapper">
+
+                        <div class="item_container">
+                            <figure class="item_image-container">
+                                <img class="item_image" src="./resources/movies.jpg" alt="icon">
+                            </figure>
+                            <p>Peliculas</p>
+                        </div>
+                        
+
+                        <div class="item_container">
+                            <figure class="item_image-container">
+                                <img class="item_image" src="./resources/pets.jpg" alt="icon">
+                            </figure>
+                            <p>Mascotas</p>
+                        </div>
+
+
+                        <div class="item_container">
+                            <figure class="item_image-container">
+                                <img class="item_image" src="./resources/style.jpg" alt="icon">
+                            </figure>
+                            <p>Estílo</p>
+                        </div>
+                    </div>                 
+                    
+                </div>
+            </div>
+
+            <!-- *********************** stories_content-div (not displayed by default) ************************** -->
+            <div class="stories_wrapper">
+
+                <div class="stories_title-container">
+                    <h2 class="stories_title">Historias</h2>
+                    
+                    <div class="stories_btn_container">
+                        <a class="st-archivo_btn" href="">Archivo</a>
+                        <a class="st-configuración_btn" href="">Configuración</a>
+                    </div>
+                </div>
+
+                <div class="stories_subtitle-container">
+                    <h3 class="stories_subtitle">Tu historia</h3>
+                </div>
+
+                <div class="add_storie-container">
+                    <figure class="add_storie_btn">
+                        <img src="./resources/plus_blue" alt="Add_st-icon">
+                    </figure>
+
+                    <div class="stories_briefing">
+                        <h4>Crea una historia</h4>
+                        <p>Comparte una foto o escribe algo</p>
+                    </div>
+                </div>
+
+
+                <div class="all_stories">
+                    <h3>Todas las historias</h3>
+
+                    <div class="all_stories-item" id="storie_1">
+                        <figure class="sel_st_img-container">
+                            <img class="sel_st-image" src="./resources/profile.jpg" alt="">
+                        </figure>
+                        <div class="selec_stories-details">
+                            <p class="sel_st_username"> <strong>Benjamín Martinez</strong> </p>
+                            <p class="sel_st_timing">10h</p>
+                        </div>
+                    </div>
+
+                    <div class="all_stories-item" id="storie_2">
+                        <figure class="sel_st_img-container">
+                            <img class="sel_st-image" src="./resources/kevin.jpg" alt="">
+                        </figure>
+                        <div class="selec_stories-details">
+                            <p class="sel_st_username"> <strong>Kevin Sandoval (L)</strong> </p>
+                            <p class="sel_st_timing">10h</p>
+                        </div>
+                    </div>
+
+                    <div class="all_stories-item" id="storie_3">
+                        <figure class="sel_st_img-container">
+                            <img class="sel_st-image" src="./resources/abilio.jpg" alt="">
+                        </figure>
+                        <div class="selec_stories-details">
+                            <p class="sel_st_username"> <strong>Abilio Zelaya</strong> </p>
+                            <p class="sel_st_timing">10h</p>
+                        </div>
+                    </div>
+
+                    <div class="all_stories-item" id="storie_4">
+                        <figure class="sel_st_img-container">
+                            <img class="sel_st-image" src="./resources/jose.jpg" alt="">
+                        </figure>
+                        <div class="selec_stories-details">
+                            <p class="sel_st_username"> <strong>Virgilio López</strong> </p>
+                            <p class="sel_st_timing">10h</p>
+                        </div>
+                    </div>
+
+                    <div class="all_stories-item" id="storie_5">
+                        <figure class="sel_st_img-container">
+                            <img class="sel_st-image" src="./resources/soraya.jpg" alt="">
+                        </figure>
+                        <div class="selec_stories-details">
+                            <p class="sel_st_username"> <strong>Lisbeth Cáceres</strong> </p>
+                            <p class="sel_st_timing">10h</p>
+                        </div>
+                    </div>
+
+                    <div class="all_stories-item" id="storie_6">
+                        <figure class="sel_st_img-container">
+                            <img class="sel_st-image" src="./resources/Armando.jpg" alt="">
+                        </figure>
+                        <div class="selec_stories-details">
+                            <p class="sel_st_username"> <strong>Armando Pineda</strong> </p>
+                            <p class="sel_st_timing">10h</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!--*************************************  End of Stories   *****************************************-->
+                
+
+            </div>
+        </section>
+
+
+
+        <section class="body-space">            
+            <div class="stories-wrapper">
+
+                <div class="storie-card storie1">
+                    <img class="storie_user" src="./resources/drone.jpg" alt="">
+                    <div class="opacity-storie"></div>
+                    <img class="storie_user-image" src="./resources/profile.jpg" alt="">
+                    <p class="storie_username">Benjamín Martinez</p>
+                </div>
+
+                <div class="storie-card storie2">
+                    <img class="storie_user" src="./resources/poe.jpg" alt="">
+                    <div class="opacity-storie"></div>
+                    <img class="storie_user-image" src="./resources/kevin.jpg" alt="">
+                    <p class="storie_username">Kevin Sandoval</p>
+                </div>
+
+                <div class="storie-card storie3">
+                    <img class="storie_user" src="./resources/ferrari.jpg" alt="">
+                    <div class="opacity-storie"></div>
+                    <img class="storie_user-image" src="./resources/abilio.jpg" alt="">
+                    <p class="storie_username">Abilio Zelaya</p>
+                </div>
+
+                <div class="storie-card storie4">
+                    <img class="storie_user" src="./resources/tenis.jpg" alt="">
+                    <div class="opacity-storie"></div>
+                    <img class="storie_user-image" src="./resources/jose.jpg" alt="">
+                    <p class="storie_username">Virgilio Lopez</p>
+                </div>
+
+                <div class="storie-card storie5">
+                    <img class="storie_user" src="./resources/soraya_storie.jpg" alt="">
+                    <div class="opacity-storie"></div>
+                    <img class="storie_user-image" src="./resources/soraya.jpg" alt="">
+                    <p class="storie_username">Lisbeth Cáceres</p>
+
+                   
+                </div>
+                <figure class="next-storie">
+                    <img class="next-storie_image" src="./resources/forward-arrow.png" alt="">
+                </figure>
+            </div>
+
+
+            <div class="publication-wrapper">
+                <div class="publication-container">
+                    <div class="input_container">
+                        <img class="publication_user-image" src="./resources/profile.jpg" alt="">
+                        <input class="publication-var" type="text" placeholder="¿Qué estás pensando Benjamín?">
+                    </div>
+                    <div class="controlls-publication">
+                        <div class="photo_container">
+                            <img src="./resources/photos.png" alt="photo_icon"> <p> Foto/video</p>
+                        </div>
+                        <div class="tag_container">
+                            <img src="./resources/tag.png" alt="tag_icon"> <p>Etiquetar amigos</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+            
+        <section class="chat-panel">
+            <div class="publicy_wrapper">
+
+                <h3>Publicidad</h3>
+                <div class="publicy-container">
+                    <img class="publicy_image" src="./resources/publicy1.jpg" alt="Publididad1">
+                    <div class="publicy_description">
+                        <p class="publicy_title">6 variedades de café a $17.99 cada bolsa.</p>
+                        <a class="publicy_subtitle" href="https://benjaminmq2013.github.io/CoffeeShop/">benjamin-CoffeeShop.com</a>
+                    </div>
+                </div>
+                
+                <div class="publicy-container publicy-space">
+                    <img class="publicy_image" src="./resources/publicy1.jpg" alt="Publididad1">
+                    <div class="publicy_description">
+                        <p class="publicy_title">C/Bolsa a solo $17.99</p>
+                        <a class="publicy_subtitle" href="https://benjaminmq2013.github.io/CoffeeShop/">benjamin-CoffeeShop.com</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contacts_wrapper">
+
+                <div class="contacts_title">
+                    <p>Contactos</p>
+                    <div class="chat_tools-container">
+                        <img src="./resources/search.png" alt="">
+                        <img src="./resources/more.png" alt="">
+                    </div>                    
+                </div>
+
+                <div class="contact_item">
+                    <figure class="contact_image-container">
+                        <img class="contact_image" src="./resources/jose.jpg" alt="contact_image">
+                        <div class="is_active"></div>
+                    </figure>                    
+                    <p class="contact_name">Virgilio Lopez</p>
+                </div>
+
+                <div class="contact_item">
+                    <figure class="contact_image-container">
+                        <img class="contact_image" src="./resources/kevin.jpg" alt="contact_image">
+                        <div class="is_active"></div>
+                    </figure>                    
+                    <p class="contact_name">Kevin Sandoval (L. Lawliet)</p>
+                </div>
+
+                <div class="contact_item">
+                    <figure class="contact_image-container">
+                        <img class="contact_image" src="./resources/soraya.jpg" alt="contact_image">
+                        <div class="is_active"></div>
+                    </figure>                    
+                    <p class="contact_name">Lisbeth Cáceres</p>
+                </div>
+
+                <div class="contact_item">
+                    <figure class="contact_image-container">
+                        <img class="contact_image" src="./resources/abilio.jpg" alt="contact_image">
+                        <div class="is_active"></div>
+                    </figure>                    
+                    <p class="contact_name">Abilio Zelaya</p>
+                </div>
+
+                <div class="contact_item">
+                    <figure class="contact_image-container">
+                        <img class="contact_image" src="./resources/Kenia.jpg" alt="contact_image">
+                        <div class="is_active"></div>
+                    </figure>                    
+                    <p class="contact_name">Alejandra Centeno</p>
+                </div>
+
+                <div class="contact_item">
+                    <figure class="contact_image-container">
+                        <img class="contact_image" src="./resources/Armando.jpg" alt="contact_image">
+                        <div class="is_active"></div>
+                    </figure>                    
+                    <p class="contact_name">Armando Pineda</p>
+                </div>
+
+                <div class="contact_item">
+                    <figure class="contact_image-container">
+                        <img class="contact_image" src="./resources/rodrigo.jpg" alt="contact_image">
+                        <div class="is_active"></div>
+                    </figure>                    
+                    <p class="contact_name">Rodrigo</p>
+                </div>
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <!--  Content for the stories, This "section" is not displayed by default...  -->
+    <section class="stories_background hidden">
+        <div class="storie_container">
+
+            <div class="button_container">
+                <figure class="previous_storie">
+                    <img src="./resources/simple_arrow-black" alt="previous">
+                </figure>
+            </div>
+            
+            
+            <div class="storie_content">
+                <div class="loading_var"></div>
+                <img id="storie_content-image" src="./resources/drone.jpg" alt="">
+                <div class="active_storie-user">
+
+                    <figure class="active_storie-image">
+                        <img class="active_storie_img" src="./resources/profile.jpg" alt="">
+                    </figure>
+                    <div class="">
+                        <p class="active_image-username"> <strong class="active_storie-username">Benjamín Martinez</strong> </p>                        
+                    </div>
+
+
+                    <div class="stories_controlls">
+                        <img id="play_button" src="./resources/pause_icon" alt="">
+                        <img id="sound_button" src="./resources/sound_icon" alt="">
+                        <img src="./resources/more_icon" alt="" >
+                    </div>
+                </div>
+            </div>
+
+            <div class="button_container">
+                <figure class="next_storie">
+                    <img src="./resources/simple_arrow-black" alt="previous">
+                </figure>
+            </div>
+            
+
+        </div>
+
+        <div class="storie_response">
+            <div class="res_input-container">
+                <input type="text" placeholder="Responder...">
+                <img class="gif_icon" src="./resources/gif_icon" alt="Gif">
+            </div>     
+            
+            <div class="stories_emojis-container">
+                <p class="stories_emojis">👍</p>
+                <p class="stories_emojis">❤️</p>
+                <p class="stories_emojis">😄</p>
+                <p class="stories_emojis">😲</p>
+                <p class="stories_emojis">😥</p>
+                <p class="stories_emojis">😡</p>
+            </div>
+            
+        </div>
+
+       <div class="user_tools user_tools-stories">
+
+                    <div class="tool_wrapper">
+                        <figure class="tool_icon-container">
+                            <img class="tool_icon" src="./resources/plus.png" alt="icon">
+                        </figure>
+                    </div>
+
+                    <div class="tool_wrapper">
+                        <figure class="tool_icon-container">
+                            <img class="tool_icon" src="./resources/messages.png" alt="icon">
+                        </figure>
+                    </div>
+
+                    <div class="tool_wrapper">
+                        <figure class="tool_icon-container">
+                            <img class="tool_icon" src="./resources/bell.png" alt="icon">
+                        </figure>
+                    </div>
+
+                    <div class="tool_wrapper">
+                        <figure class="tool_icon-container">
+                            <img class="tool_icon more_icon" src="./resources/triangle.png" alt="icon">
+                        </figure>
+                    </div>
+
+                </div>
+    </section>
+
+    <section class="publications_container-background hidden">        
+        <div class="publication_container">
+
+
+            <h2 class="posting_title">Crear Publicación</h2>
+            <figure class="close_posting">
+                <img src="./resources/close_icon" alt="close" class="close_posting-img">
+            </figure>
+
+            <div class="user_post_container">
+                <img class="user_posting_image" src="./resources/profile.jpg" alt="">
+                <div class="posting_user-details">
+                    <p class="posting_user-name"> <strong>Benjamín Martinez</strong> </p>
+                    <div class="post_privacy_container">
+                        <img class="privacy_icons-state" src="./resources/secure" alt="">
+                        <p class="posting_privacy_description">Solo yo</p> 
+                        <img class="privacy_icons-select" src="./resources/triangle.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="publication_content">
+                <input class="posting_text_container" type="text" placeholder="¿Qué estás pensando, Benjamín?">
+            </div>
+
+            <div class="color_config">
+                <img src="./resources/font-color" alt="">
+                <img src="./resources/outline_emoji" alt="">
+            </div>
+
+            <div class="add_to_post-container">
+                <p><strong>Agregar a tu publicación</strong></p>
+
+                <div class="adding_icons">
+                    <figure class="fig_add_icon">
+                        <img src="./resources/photos.png" alt="pic">
+                    </figure>
+                    
+                    <figure class="fig_add_icon">
+                        <img src="./resources/tag.png" alt="tag">
+                    </figure>
+
+                    <figure class="fig_add_icon">
+                        <img src="./resources/happy_yellow" alt="emj">
+                    </figure>
+
+                    <figure class="fig_add_icon">
+                        <img id="loc_btn" src="./resources/location_red" alt="loc">
+                    </figure>
+
+                    <figure class="fig_add_icon">
+                        <img src="./resources/rec_camera-red" alt="rec">
+                    </figure>
+
+                    <figure class="fig_add_icon">
+                        <img src="./resources/more_icon-grey" alt="rec">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="post_btn-container">
+                <button class="post_btn">Publicar</button>
+            </div>
+            
+        </div>
+    </section>
+    
+    <footer></footer>
+
+    <script src="./scripts/stories.js"></script>
+    <script src="./scripts/publicaciones.js"></script>
+</body>
+</html>

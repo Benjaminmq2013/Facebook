@@ -1,0 +1,54 @@
+@media screen and (min-width:1440px){
+    .nav{
+        height: 5.5vh;
+    }
+    .controll_section{
+        margin-left: 10%;
+        margin-right: 7%;
+        width: 40%;
+    }
+    .lateral_panel{
+        top: 5.5vh;
+        height: 95vh;
+    }
+    .controll_container img {
+        width: 21%;
+    }
+    .stories-wrapper{
+        padding-top: 5vh;
+        height: 22vh;
+        width: 65%;
+        margin-left: 3vw;
+    }
+    .next-storie{
+        right: 13.8%;
+    }
+    .panel_left-items-container {
+        height: 46vh;
+    }
+    .lateral_panel-container{
+        width: 85%;
+    }
+    .publication_user-image{
+        width: 7.6%;
+    }
+    .user_tools{
+        width: 51%;
+
+    }
+    .user_section{
+        justify-content: flex-end;
+    }
+    .user{
+        justify-content: flex-end;
+    }
+    .chat-panel{
+        top: 5.5vh;
+        width: 18%;
+        
+    }
+    .body-space{
+        padding-right: 12vw;
+    }
+    
+}
