@@ -38,10 +38,31 @@ posting_text_container = document.querySelector('.posting_text_container');
 post_btn = document.querySelector(".post_btn")
 
 
-posting_text_container.addEventListener("click", post_activate)
+post_btn.addEventListener("click", make_post)//Posteando al hacer click en "Publicar"
+posting_text_container.addEventListener("click", post_activate) //Activando botón "Publicar"
 
 
 function post_activate(){
     post_btn.classList.add("post_btn-color")
 }
 
+let post_num = 1;
+
+function make_post(){
+    posting_content_input = posting_text_container.value;
+    if (posting_content_input == ""){
+        console.log("Publicasión Vacía")
+    } else{
+        let div_element = document.createElement("div")
+        div_element.classList.add("post_wrapper")
+        div_element.classList.add(`publicasion_${post_num}`)
+        
+
+        post_num +=1;
+        console.log(div_element)
+        console.log(posting_content_input)
+        close_posting()
+    }
+
+
+}

@@ -325,7 +325,7 @@ function sombrear_background_storie6(){
 
 
 /* ******************** PASANDO HISTORIAS AUTOMÁTICAMENTE ********************** */
-open_storie1()
+//open_storie1()
 
 
 /*
