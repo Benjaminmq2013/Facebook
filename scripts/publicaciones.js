@@ -36,6 +36,7 @@ function open_publication (){
 
 posting_text_container = document.querySelector('.posting_text_container');
 post_btn = document.querySelector(".post_btn")
+const posts_container = document.querySelector(".posts_container")
 
 
 post_btn.addEventListener("click", make_post)//Posteando al hacer click en "Publicar"
@@ -53,15 +54,24 @@ function make_post(){
     if (posting_content_input == ""){
         console.log("Publicasión Vacía")
     } else{
-        let div_element = document.createElement("div")
-        div_element.classList.add("post_wrapper")
-        div_element.classList.add(`publicasion_${post_num}`)
+        //posting_template >> Plantilla con el contenido de la publicasión.
+        posting_template = (`            
+            <p>${posting_content_input}</p>           
+        `)
         
 
+        let before_element = document.querySelector(`.publication_${post_num}`) //Trayendo la publicasión anterior.
         post_num +=1;
-        console.log(div_element)
-        console.log(posting_content_input)
+        let div_element = document.createElement("div")//Creando Elemento DIV        
+        div_element.classList.add("post_wrapper")
+        div_element.classList.add(`publication_${post_num}`)  
+        posts_container.insertBefore(div_element, before_element) //Pidiendo al document insertar la nueva publicasión antes de la anterior
+        const new_post = document.querySelector(`.publication_${post_num}`)
+        new_post.innerHTML = posting_template;        
+        posting_text_container.value = ("");
         close_posting()
+
+        console.log(posting_content_input)
     }
 
 
