@@ -1,3 +1,26 @@
+
+@media screen and (min-width:1919px){
+    .stories_container{
+        width:20%;
+    }
+    .stories_background{
+        width:78vw;
+    }
+    .next_storie{
+        height: 5.2%;
+    }
+    .previous_storie{
+        height: 5.2%;
+    }
+    .publication_container{
+        height: 39%;
+        width: 26%;
+        padding: 0 7px;
+    }
+    .user_post_container{
+        margin-left: 13px;
+    }
+}
 @media screen and (min-width:1440px){
     .nav{
         height: 5.5vh;
@@ -33,7 +56,7 @@
         width: 7.6%;
     }
     .user_tools{
-        width: 51%;
+        width: 226px;
 
     }
     .user_section{

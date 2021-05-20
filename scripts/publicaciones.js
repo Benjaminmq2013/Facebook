@@ -55,8 +55,63 @@ function make_post(){
         console.log("Publicasión Vacía")
     } else{
         //posting_template >> Plantilla con el contenido de la publicasión.
-        posting_template = (`            
-            <p>${posting_content_input}</p>           
+        posting_template = (` 
+            
+            
+            <div class="post_user-container">
+                                <figure class="post_user-picture">
+                                    <img src="./resources/profile.jpg" alt="usrPic"> 
+                                </figure>
+                                <div class="post_user-details">
+                                    <div class="post_user_name-details">
+                                        <h4 class="post_user-name">Benjamín Martinez</h4>
+                                        <img src="./resources/triangle-grey.png" alt="" class="arrow-right">
+                                        <h4 class="post_user-name">React Group</h4>
+                                    </div>
+
+                                    <div class="post_time-details">
+                                        <p> <small>3h</small>  </p>
+                                        <img class="group_post-logo" src="./resources/groups.png" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="post_text-container">
+                                <p class="post_text-content">${posting_content_input}</p> <!--Contenido txt del post-->                                
+                            </div>
+
+                            <div class="likes_and_comments">
+                                <div class="likes_post_container">
+                                    <img class="likes_post-icon" src="./resources/like.png" alt="">
+                                    <p>0</p>
+                                </div>
+
+                                <div class="post_comments-container">
+                                    <p>Sin comentarios</p>
+                                </div>
+                            </div>
+
+                            <div class="like_and_comment-btn">
+                                <div class="i_like_it">
+                                    <button class="like_post_btn"> <img src="./resources/like_post.png" alt=""> Me gusta</button>
+                                </div>
+                                <div class="i_comment">
+                                    <button class="comment_post_btn"> <img src="./resources/comment_post.png" alt=""> Comentar</button>
+                                </div>
+                            </div>
+
+                            <div class="write_a_comment_container">
+                                <figure class="comment_profile_image">
+                                    <img src="./resources/profile.jpg" alt="">
+                                    <div class="active_user_symbol"></div>
+                                </figure>
+
+                                <input class="post_a_comment" type="text" placeholder="Escribe un comentario">
+                            </div>
+
+
         `)
         
 

@@ -22,7 +22,7 @@ html{
   background-color: #f0f2f5;
   width: 56.5%;
   min-height: 100vh;
-  margin-left: 22vw;
+  margin-left: 21.5vw;
 }
 
 .logo_container {
@@ -1172,4 +1172,91 @@ html{
 }
 .post_comments-container p:hover{
   text-decoration: underline;
+}
+.like_and_comment-btn{
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgb(196, 196, 196);
+  border-left: 0;
+  border-right: 0;
+  margin-top: 10px;
+
+  display: flex;
+}
+
+.i_like_it{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.i_comment{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like_post_btn{
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items:center;
+}
+.comment_post_btn{
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items:center;
+}
+
+.like_post_btn img{
+  height: 27px;
+  width: 27px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+.comment_post_btn img{
+  height: 25px;
+  width: 25px;
+  margin-right: 3px;
+}
+.write_a_comment_container img{
+  height: 31px;
+  width: 31px;
+  border-radius: 31px;
+  object-fit: cover;
+}
+
+
+.comment_profile_image{
+  position: relative;
+}
+.active_user_symbol{
+  position: absolute;
+  background-color: green;
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 4px;
+  border: 1px solid white;
+}
+
+.write_a_comment_container{
+  display: flex;
+  margin-top: 9px;
+}
+.post_a_comment{
+  border-radius: 50px;
+  border: none;
+  background-color: #f0f2f5;
+  box-shadow: 0px 0px 2px rgb(187, 187, 187);
+  outline: none;
+  width: 80%;
+  margin-left: 10px;
+  padding-left: 3%;
+  
 }
